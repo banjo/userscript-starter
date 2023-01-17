@@ -1,0 +1,20 @@
+{
+    "name": "userscript-starter",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "release": "bumpp --execute 'pnpm run build' --all",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "bumpp": "^8.2.1",
+        "prettier": "^2.8.3",
+        "typescript": "^4.9.4",
+        "vite": "^4.0.4",
+        "vite-plugin-monkey": "^2.11.0"
+    }
+}
