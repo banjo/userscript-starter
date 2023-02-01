@@ -11,13 +11,15 @@
         "format": "prettier --write ."
     },
     "devDependencies": {
+        "@banjoanton/utils": "^0.1.24",
         "bumpp": "^8.2.1",
         "prettier": "^2.8.3",
         "typescript": "^4.9.4",
         "vite": "^4.0.4",
-        "vite-plugin-monkey": "^2.11.0"
+        "vite-plugin-monkey": "2.11.1"
     },
     "dependencies": {
-        "@banjoanton/spa-runner": "^0.0.12"
+        "@banjoanton/spa-runner": "0.0.14",
+        "toastler": "^0.0.4"
     }
 }
