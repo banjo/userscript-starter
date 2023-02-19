@@ -1,4 +1,4 @@
-# Userscript starter
+# pkg-name
 
 Simple starter template for userscripts.
 

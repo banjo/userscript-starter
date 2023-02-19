@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       userscript-starter
+// @name       pkg-name
 // @namespace  banjoanton
 // @version    0.0.0
 // @author     monkey
