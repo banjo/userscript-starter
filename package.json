@@ -3,6 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "prettier": "@banjoanton/prettier-config",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
@@ -11,6 +12,7 @@
         "format": "prettier --write ."
     },
     "devDependencies": {
+        "@banjoanton/prettier-config": "^0.0.4",
         "@banjoanton/utils": "^0.1.24",
         "bumpp": "^8.2.1",
         "prettier": "^2.8.3",

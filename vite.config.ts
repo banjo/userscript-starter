@@ -7,10 +7,10 @@ export default defineConfig({
         monkey({
             entry: "src/main.ts",
             userscript: {
-                icon: "https://vitejs.dev/logo.svg",
-                namespace: "banjoanton",
-                author: "banjoanton",
-                match: ["https://www.google.com/*"],
+                "icon": "https://vitejs.dev/logo.svg",
+                "namespace": "banjoanton",
+                "author": "banjoanton",
+                "match": ["https://www.google.com/*"],
                 "run-at": "document-end",
             },
         }),
