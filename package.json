@@ -9,12 +9,17 @@
         "build": "tsc && vite build",
         "preview": "vite preview",
         "release": "bumpp --execute 'pnpm run build' --all",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "lint": "eslint --ext .js,.ts,.json . --fix"
     },
     "devDependencies": {
+        "@banjoanton/eslint-config-prettier": "^0.0.8",
         "@banjoanton/prettier-config": "^0.0.4",
         "@banjoanton/utils": "^0.1.24",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
         "bumpp": "^8.2.1",
+        "eslint": "^8.35.0",
         "prettier": "^2.8.3",
         "typescript": "^4.9.4",
         "vite": "^4.0.4",
