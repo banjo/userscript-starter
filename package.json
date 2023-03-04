@@ -20,6 +20,7 @@
         "@typescript-eslint/parser": "^5.54.0",
         "bumpp": "^8.2.1",
         "eslint": "^8.35.0",
+        "lint-staged": "^13.1.2",
         "prettier": "^2.8.3",
         "simple-git-hooks": "^2.8.1",
         "typescript": "^4.9.4",
@@ -31,6 +32,12 @@
         "toastler": "^0.0.4"
     },
     "simple-git-hooks": {
-        "pre-commit": "pnpm run format && pnpm run lint"
+        "pre-commit": "pnpm exec lint-staged"
+    },
+    "lint-staged": {
+        "*": [
+            "prettier --write --ignore-unknown",
+            "eslint --fix"
+        ]
     }
 }
