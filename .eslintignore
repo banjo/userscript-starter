@@ -5,3 +5,4 @@ coverage
 lib
 bin
 *-lock.*
+vite-env.d.ts
